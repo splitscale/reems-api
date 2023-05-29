@@ -39,6 +39,6 @@ public class TenantInfoConfig {
 
   @Bean
   public DatabaseDriver getDatabaseDriver() throws IOException {
-    return new DatabaseDriver(Path.of("com", "main", "resources", "db.properties").toString());
+    return new DatabaseDriver(Path.of("src", "main", "resources", "db.properties").toString());
   }
 }
