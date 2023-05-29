@@ -37,7 +37,7 @@
 
     <dependency>
       <groupId>com.splitscale.reems</groupId>
-      <artifactId>reems-core</artifactId>
+      <artifactId>core</artifactId>
       <version>1.0</version>
     </dependency>
 
