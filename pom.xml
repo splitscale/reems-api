@@ -37,6 +37,18 @@
 
     <dependency>
       <groupId>com.splitscale.reems</groupId>
+      <artifactId>reems-databaseImpl</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.splitscale.reems</groupId>
+      <artifactId>securityImpl</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.splitscale.reems</groupId>
       <artifactId>core</artifactId>
       <version>1.0</version>
     </dependency>

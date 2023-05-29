@@ -20,8 +20,13 @@ import com.splitscale.reems.security.wrappers.tenantInfo.read.ReadTenantInfo;
 
 @RequestMapping("/api/v1/tenantInfo")
 public class TenantInfoController {
-  CreateTenantInfo createTenantInfo;
-  ReadTenantInfo readTenantInfo;
+  private CreateTenantInfo createTenantInfo;
+  private ReadTenantInfo readTenantInfo;
+
+  public TenantInfoController(CreateTenantInfo createTenantInfo, ReadTenantInfo readTenantInfo) {
+    this.createTenantInfo = createTenantInfo;
+    this.readTenantInfo = readTenantInfo;
+  }
 
   @ResponseBody
   @PostMapping
